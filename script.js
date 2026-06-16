@@ -4,8 +4,9 @@ let incbtn = document.getElementById("increase")
 let output = document.getElementById("output")
 let cnt =0;
 decbtn.addEventListener('click',()=>{
-    cnt--;
-    console.log(cnt);
+    if(cnt>0){
+        cnt--;
+    }
     output.innerHTML=`${cnt}`   
 });
 

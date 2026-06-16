@@ -48,6 +48,7 @@ h1{
 .controls{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 50vw;
 
 }
